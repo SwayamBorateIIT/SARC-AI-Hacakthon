@@ -1,0 +1,39 @@
+.faq-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; /* Center text inside the div */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faq-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.faq-text .highlight {
+  color: #f47a20;
+}
+
+.faq-text .subtext {
+  font-size: 1.2rem;
+  color: #555; 
+  max-width: 800px; 
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(228, 118, 73);
+  color: white; 
+  font-size: 1rem; 
+  font-weight: bold; 
+  text-transform: uppercase; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+  margin-left: 30rem;
+}
